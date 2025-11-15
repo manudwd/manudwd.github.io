@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#home" class="nav-logo">MD</a>
+        <ul class="nav-menu">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#publications" class="nav-link">Publications</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#awards" class="nav-link">Awards</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; {{ 'now' | date: "%Y" }} Manu Dwivedi. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/manu-dwivedi/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/manudwd" target="_blank" rel="noopener">GitHub</a>
+          <a href="mailto:manudwivedi27@gmail.com">Email</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
+  </body>
+</html>
