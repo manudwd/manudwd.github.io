@@ -329,6 +329,38 @@ body {
   gap: 2rem;
 }
 
+.story-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.story-content p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.9;
+  color: var(--text-secondary);
+}
+
+.story-narrative {
+  margin-top: 1rem;
+}
+
+.story-narrative p {
+  margin-bottom: 1.2rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
+
+.story-narrative p:first-child {
+  margin-top: 0;
+}
+
+.story-narrative p strong {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
 .about-image-container {
   width: 300px;
   height: 300px;
