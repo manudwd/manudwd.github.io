@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
     observer.observe(item);
   });
 
-  // Navbar scroll effect
+  // Navbar scroll effect with smooth transitions
   let lastScroll = 0;
   const navbar = document.querySelector('.navbar');
   
@@ -63,13 +63,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const currentScroll = window.pageYOffset;
     
     if (currentScroll > 100) {
-      navbar.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1)';
+      navbar.classList.add('scrolled');
     } else {
-      navbar.style.boxShadow = '0 1px 2px 0 rgba(0, 0, 0, 0.05)';
+      navbar.classList.remove('scrolled');
     }
     
     lastScroll = currentScroll;
-  });
+  }, { passive: true });
 
   // Add active state to navigation links based on scroll position
   const sections = document.querySelectorAll('section[id]');
