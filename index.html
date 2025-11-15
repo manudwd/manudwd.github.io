@@ -9,7 +9,7 @@ title: Manu Dwivedi
     <!-- Recommended: Place your photo in /assets/images/profile.jpg -->
     <!-- Image should be square (1:1 aspect ratio) for best results -->
     <div class="hero-image-container fade-in">
-      <img src="/assets/images/profile.jpg" alt="Manu Dwivedi" class="hero-image" onerror="this.style.display='none'; this.parentElement.style.display='none';">
+      <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Manu Dwivedi" class="hero-image" onerror="this.style.display='none'; this.parentElement.style.display='none';">
     </div>
     <div class="hero-text-content">
       <h1 class="hero-title fade-in-delay">Manu Dwivedi</h1>
@@ -40,7 +40,7 @@ title: Manu Dwivedi
     <div class="about-content">
       <!-- OPTIONAL PHOTO: Uncomment below to add a second photo in the About section -->
       <!-- <div class="about-image-container">
-        <img src="/assets/images/about.jpg" alt="About Manu Dwivedi" class="about-image" onerror="this.style.display='none'; this.parentElement.style.display='none';">
+        <img src="{{ '/assets/images/about.jpg' | relative_url }}" alt="About Manu Dwivedi" class="about-image" onerror="this.style.display='none'; this.parentElement.style.display='none';">
       </div> -->
       <p class="lead-text">Principal Embedded Machine Learning Engineer leading the development of passive radar solutions for ISAC across NR, LTE, and 802.11. Focus on multimodality and feature-fusion for robust detection and localization with OFDM waveforms. Leading GenAI-based, full closed-loop solutions across Core Networks, RAN, and OAM systems.</p>
     </div>
