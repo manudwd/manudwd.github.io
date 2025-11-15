@@ -2,7 +2,10 @@ title: Manu Dwivedi
 description: Principal Embedded Machine Learning Engineer
 url: https://manudwd.github.io
 baseurl: ""
-theme: minima
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
