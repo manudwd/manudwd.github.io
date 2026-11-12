@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <marker id="a4" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#60a5fa"/></marker>
+    <style>
+      .box{fill:#1e293b;stroke:#60a5fa;stroke-width:1.5}
+      .gpu{fill:#14281f;stroke:#4ade80;stroke-width:1.6}
+      .box2{fill:#1e293b;stroke:#a78bfa;stroke-width:1.5}
+      .t{fill:#e5e7eb;font-size:13px}.ts{fill:#9ca3af;font-size:11px}
+      .lbl{fill:#60a5fa;font-size:12px;font-weight:600}
+      .flow{stroke:#60a5fa;stroke-width:2;fill:none;marker-end:url(#a4)}
+    </style>
+  </defs>
+  <text x="20" y="28" class="lbl">O-RAN E3 sensing dApp on NVIDIA Aerial (GPU L1) + CUDA zero-copy NR-UE sync</text>
+
+  <!-- O-RU -->
+  <rect class="box" x="20" y="90" width="140" height="70" rx="8"/>
+  <line x1="60" y1="90" x2="60" y2="70" stroke="#60a5fa" stroke-width="2"/><path d="M50 70 L70 70 L60 58 Z" fill="none" stroke="#60a5fa"/>
+  <text x="90" y="120" text-anchor="middle" class="t">O-RU</text>
+  <text x="90" y="140" text-anchor="middle" class="ts">Option 7.2 FH</text>
+
+  <path class="flow" d="M160 125 L200 125"/>
+
+  <!-- Aerial GPU L1 -->
+  <rect class="gpu" x="202" y="86" width="200" height="78" rx="8"/>
+  <text x="302" y="116" text-anchor="middle" class="t">NVIDIA Aerial (cuBB)</text>
+  <text x="302" y="136" text-anchor="middle" class="ts">GPU L1 — cuPHY</text>
+  <text x="302" y="153" text-anchor="middle" class="ts">shared-memory IPC / ZMQ</text>
+
+  <path class="flow" d="M402 125 L442 125"/>
+  <rect class="box2" x="444" y="98" width="110" height="54" rx="8"/>
+  <text x="499" y="130" text-anchor="middle" class="t">E3 interface</text>
+
+  <path class="flow" d="M554 125 L594 125"/>
+  <rect class="box" x="596" y="90" width="150" height="70" rx="8"/>
+  <text x="671" y="120" text-anchor="middle" class="t">Sensing dApp</text>
+  <text x="671" y="140" text-anchor="middle" class="ts">CAF / CFAR / Doppler</text>
+
+  <path class="flow" d="M746 125 L786 125"/>
+  <rect class="box" x="788" y="98" width="150" height="54" rx="8"/>
+  <text x="863" y="122" text-anchor="middle" class="t">Detections</text>
+  <text x="863" y="140" text-anchor="middle" class="ts">tracks / targets</text>
+
+  <!-- CUDA zero-copy note -->
+  <rect class="gpu" x="202" y="210" width="340" height="52" rx="8"/>
+  <text x="372" y="232" text-anchor="middle" class="t">OpenAirInterface NR-UE</text>
+  <text x="372" y="250" text-anchor="middle" class="ts">CUDA zero-copy SDR to GPU initial sync (no host copy)</text>
+  <path class="flow" d="M302 210 L302 164"/>
+</svg>

@@ -587,6 +587,13 @@ body {
   color: var(--text-muted);
 }
 
+.research {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--text-muted);
+  margin: 0;
+}
+
 /* Publications */
 .publications-list {
   max-width: 800px;
@@ -962,4 +969,61 @@ body {
     width: 200px;
     height: 200px;
   }
+}
+
+/* ===== Flagship Work / Projects ===== */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.project-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 1.25rem 1.25rem 1.5rem;
+  box-shadow: var(--shadow-md);
+  transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease;
+}
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-xl);
+  border-color: var(--primary-color);
+}
+.project-figure {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: .75rem;
+  margin-bottom: 1.1rem;
+}
+.project-figure img { width: 100%; height: auto; display: block; }
+.project-card h3 {
+  color: var(--primary-color);
+  font-size: 1.25rem;
+  margin: 0 0 .6rem;
+}
+.project-card p {
+  color: var(--text-secondary);
+  font-size: .97rem;
+  line-height: 1.6;
+  margin: 0 0 1rem;
+}
+.project-card .skill-tags { gap: .4rem; }
+.project-card.text-only {
+  border-left: 3px solid var(--secondary-color);
+}
+@media (max-width: 480px) {
+  .projects-grid { grid-template-columns: 1fr; }
+}
+
+/* real measured-plot figures (white matplotlib background) */
+.project-figure.plot { background: #ffffff; }
+.fig-note {
+  color: var(--text-secondary);
+  font-size: .82rem;
+  line-height: 1.45;
+  margin: -.4rem .1rem 1.1rem;
+  font-style: italic;
 }

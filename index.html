@@ -13,8 +13,8 @@ title: Manu Dwivedi
     </div>
     <div class="hero-text-content">
       <h1 class="hero-title fade-in-delay">Manu Dwivedi</h1>
-      <p class="hero-subtitle fade-in-delay-2">Principal Embedded Machine Learning Engineer</p>
-      <p class="hero-description fade-in-delay-3">Transforming wireless signals into intelligent sensing systems. From silicon to production, I bridge hardware and AI to create solutions that protect, monitor, and enhance how we interact with the world around us.</p>
+      <p class="hero-subtitle fade-in-delay-2">Director of Engineering, AI/ML R&amp;D</p>
+      <p class="hero-description fade-in-delay-3">I build edge RF sensing and RAN-native ISAC systems end to end: from 5G-NR and broadcast-TV waveform physics and DSP, through GPU/FPGA real-time processing and machine learning, to productized, licensed field deployments and standards-grade C2. I turn the signals already in the air into passive radar that detects drones, tracks aircraft, and senses people, without new hardware.</p>
     </div>
     <div class="hero-contact fade-in-delay-4">
       <a href="https://www.linkedin.com/in/manu-dwivedi/" target="_blank" rel="noopener" class="contact-link">
@@ -43,13 +43,13 @@ title: Manu Dwivedi
         <img src="{{ '/assets/images/about.jpg' | relative_url }}" alt="About Manu Dwivedi" class="about-image" onerror="this.style.display='none'; this.parentElement.style.display='none';">
       </div> -->
       <div class="story-content">
-        <p class="lead-text">My path began at the intersection of hardware and intelligence. Starting with silicon-level design at IBM, I learned that true innovation happens when you understand every layer—from the transistors to the algorithms.</p>
-        
-        <p class="lead-text">At Michigan State, I discovered my passion: making AI efficient enough to run on the edge. I reduced Generative AI compute by 45% on FPGAs without sacrificing performance—proving that smarter design beats brute force.</p>
-        
-        <p class="lead-text">Today, I'm pioneering a new paradigm: using the wireless signals already around us—5G, LTE, WiFi—as a sensing medium. Instead of deploying expensive radar systems, we're turning existing infrastructure into intelligent eyes that can detect falls in elderly care, track drones for security, and monitor traffic for smart cities—all without additional hardware.</p>
-        
-        <p class="lead-text">From RTL to production, from research papers to MWC showcases, I build systems that matter. Every line of code, every optimization, every patent serves one purpose: creating technology that protects people and enhances lives.</p>
+        <p class="lead-text">My path began at the intersection of hardware and intelligence. Starting with silicon-level design at IBM, I learned that real innovation happens when you understand every layer, from the transistors to the algorithms.</p>
+
+        <p class="lead-text">At Michigan State, I found my focus: making AI efficient enough to run on the edge. I cut Generative-AI compute by 45% on FPGAs without pruning or quantization, proving that smarter design beats brute force.</p>
+
+        <p class="lead-text">Today, as Director of Engineering for AI/ML R&amp;D at Tiami Networks, I lead a different paradigm: using the wireless signals already around us (5G-NR, LTE, DVB-T broadcast TV, Wi-Fi) as a sensing medium. Instead of deploying dedicated radar, we turn existing infrastructure into passive radar, an Integrated Sensing and Communication (ISAC) system that detects drones, tracks light aircraft to 25 km, and senses people, with no new RF hardware.</p>
+
+        <p class="lead-text">I own these products from research to the field: the DSP (cross-ambiguity, CFAR, clutter cancellation), the GPU/FPGA real-time processing, the machine learning, and the standards-grade C2 that gets detections to operators. Two IEEE publications, two patents pending, MWC showcases, and real customer deployments across telecom and defense. Every layer serves one purpose: technology that protects people.</p>
       </div>
     </div>
   </div>
@@ -58,21 +58,37 @@ title: Manu Dwivedi
 <section id="experience" class="section">
   <div class="container">
     <h2 class="section-title">Building the Future</h2>
-    <p style="text-align: center; color: var(--text-secondary); margin-bottom: 3rem; max-width: 800px; margin-left: auto; margin-right: auto;">From hardware accelerators to AI-powered sensing systems—each role built on the last, creating a unique expertise at the intersection of wireless, embedded systems, and machine learning.</p>
+    <p style="text-align: center; color: var(--text-secondary); margin-bottom: 3rem; max-width: 800px; margin-left: auto; margin-right: auto;">From hardware accelerators to AI-powered sensing systems, each role built on the last, creating a unique expertise at the intersection of wireless, embedded systems, and machine learning.</p>
     
     <div class="timeline">
       <div class="timeline-item">
         <div class="timeline-marker"></div>
         <div class="timeline-content">
           <div class="job-header">
-            <h3 class="job-title">Pr. Embedded Machine Learning Engineer</h3>
+            <h3 class="job-title">Director of Engineering, AI/ML R&amp;D</h3>
             <span class="company">Tiami Networks</span>
-            <span class="date">Dec 2024 – Present</span>
+            <span class="date">Oct 2025 – Present</span>
           </div>
           <div class="story-narrative">
-            <p><strong>Leading the next generation of wireless sensing.</strong> I'm now pioneering uplink-based sensing—a paradigm shift that opens entirely new possibilities. Working with NVIDIA and Northeastern University, we're reimagining how 5G networks can understand and respond to the world around them.</p>
+            <p><strong>Owning the passive-radar and ISAC product line, research to field.</strong> I took <em>PolyEdge</em>, our 5G-NR passive radar, from a DSP chain (cross-ambiguity, CFAR, clutter cancellation, live NR waveform reconstruction) to IP-protected, licensed deployments at customer sites. I shipped <em>AirRadar</em>, a DVB-T passive radar that tracks light aircraft to 25 km against ADS-B ground truth. Engineering delivery drove $750K in sales and secured over $1M in follow-on R&amp;D funding.</p>
+            <p>The work runs the full stack: a CUDA zero-copy GPU sync path inside OpenAirInterface, an O-RAN E3 sensing dApp on NVIDIA Aerial, four-RX phase-coherent angle-of-arrival, a receive-only NR UE subset on a low-cost bladeRF FPGA (over-the-air PCI acquisition), a waveform-agnostic Pattern-of-Life RF SIGINT stack, and defensive counter-UAS response autonomy (ARCHES).</p>
+            <p>I lead standards-grade C2 integrations (SAPIENT, ASTERIX, FAAD C2, TAK) and an agentic-AI cyber-defense system. We demonstrated multi-UAS detection on public and private 5G for Group-1 drones at roughly 1 km, among the first publicly demonstrated in our customer set.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="job-header">
+            <h3 class="job-title">Principal Embedded Machine Learning Engineer</h3>
+            <span class="company">Tiami Networks</span>
+            <span class="date">Dec 2024 – Oct 2025</span>
+          </div>
+          <div class="story-narrative">
+            <p><strong>Leading the next generation of wireless sensing.</strong> I pioneered uplink-based gNB sensing, a paradigm shift that opens entirely new possibilities. Working with NVIDIA and Northeastern University, we reimagined how 5G networks can understand and respond to the world around them.</p>
             <p>My work spans from defense applications with the US Army to life-saving fall detection for elderly care. Each project starts with a question: "How can we use what's already there to solve real problems?" The answer is reshaping how Tier-1 carriers, security firms, and cities think about infrastructure.</p>
-            <p>This year, our innovations will be showcased at MWC Barcelona 2025—not as prototypes, but as production-ready solutions changing how we interact with wireless networks.</p>
+            <p>This year, our innovations will be showcased at MWC Barcelona 2025, not as prototypes, but as production-ready solutions changing how we interact with wireless networks.</p>
           </div>
         </div>
       </div>
@@ -87,11 +103,11 @@ title: Manu Dwivedi
           </div>
           <div class="story-narrative">
             <p><strong>This is where everything came together.</strong> In just over a year, I went from architecting solutions to seeing them deployed in real cities, winning awards, and filing patents.</p>
-            <p>The breakthrough moment was building the first band-agnostic UAV detection system. While others struggled with cluttered environments, we achieved 95% accuracy by thinking differently—not just about the algorithm, but about how signals propagate, reflect, and reveal information.</p>
-            <p>Working with the City of Elk Grove, we proved the concept at scale: 99.6% accuracy tracking pedestrians and traffic from 250m to 1.3km away. No cameras, no additional infrastructure—just intelligent processing of signals already in the air.</p>
+            <p>The breakthrough moment was building the first band-agnostic UAV detection system. While others struggled with cluttered environments, we achieved 95% accuracy by thinking differently, not just about the algorithm, but about how signals propagate, reflect, and reveal information.</p>
+            <p>Working with the City of Elk Grove, we proved the concept at scale: 99.6% accuracy tracking pedestrians and traffic from 250m to 1.3km away. No cameras, no additional infrastructure, just intelligent processing of signals already in the air.</p>
             <p>My work on closed-loop network assurance won Deutsche Telekom's <em>Most Integration Potential Award</em> (€25,000), recognizing not just technical excellence, but the vision of networks that understand and adapt to their environment.</p>
-            <p>From RTL design to bare-metal deployment on Yocto, from research papers to executive presentations at Verizon and T-Mobile—I built systems that work, not just in the lab, but in production. The Arria10 SoC demo at MWC 2024 wasn't just a showcase; it was proof that edge AI can be both powerful and efficient.</p>
-            <p>Two patents, multiple publications, and multimillion-dollar proposals later, I've established that ISAC isn't just possible—it's the future of wireless infrastructure.</p>
+            <p>From RTL design to bare-metal deployment on Yocto, from research papers to executive presentations at Verizon and T-Mobile, I built systems that work, not just in the lab, but in production. The Arria10 SoC demo at MWC 2024 wasn't just a showcase; it was proof that edge AI can be both powerful and efficient.</p>
+            <p>Two patents, multiple publications, and multimillion-dollar proposals later, I've established that ISAC isn't just possible, it's the future of wireless infrastructure.</p>
           </div>
         </div>
       </div>
@@ -105,8 +121,8 @@ title: Manu Dwivedi
             <span class="date">Sept 2023 – Nov 2023</span>
           </div>
           <div class="story-narrative">
-            <p><strong>Where I discovered my calling.</strong> This internship wasn't just about learning—it was about seeing the potential of ISAC firsthand. I was working on one of the earliest 5G-based sensing solutions, performing OTA tests that would shape the future of the field.</p>
-            <p>Reproducing the SenseFi paper taught me that research isn't just about reading—it's about understanding deeply enough to rebuild and improve. Optimizing FPGA inference for Ultrascale+ RFSoC showed me that every cycle matters when you're running AI at the edge.</p>
+            <p><strong>Where I discovered my calling.</strong> This internship wasn't just about learning, it was about seeing the potential of ISAC firsthand. I was working on one of the earliest 5G-based sensing solutions, performing OTA tests that would shape the future of the field.</p>
+            <p>Reproducing the SenseFi paper taught me that research isn't just about reading, it's about understanding deeply enough to rebuild and improve. Optimizing FPGA inference for Ultrascale+ RFSoC showed me that every cycle matters when you're running AI at the edge.</p>
             <p>This is where I learned to think in systems: from RF signals to TensorFlow models to Docker deployments. Every piece had to work together seamlessly.</p>
           </div>
         </div>
@@ -121,7 +137,7 @@ title: Manu Dwivedi
             <span class="date">Jul 2023 – Sept 2023</span>
           </div>
           <div class="story-narrative">
-            <p><strong>Learning to ship AI products.</strong> While working on pure ML problems—anti-cheat systems, GPT-3 fine-tuning—I learned that great models mean nothing without great deployment. Building the Flask interface and AWS SageMaker pipeline taught me that production AI is as much about engineering as it is about algorithms.</p>
+            <p><strong>Learning to ship AI products.</strong> While working on pure ML problems, anti-cheat systems, GPT-3 fine-tuning, I learned that great models mean nothing without great deployment. Building the Flask interface and AWS SageMaker pipeline taught me that production AI is as much about engineering as it is about algorithms.</p>
             <p>This experience gave me the full-stack perspective I needed: from model architecture to user experience to cloud infrastructure. It's a lesson I carry into every embedded system I build.</p>
           </div>
         </div>
@@ -136,7 +152,7 @@ title: Manu Dwivedi
             <span class="date">May 2022 – Jun 2023</span>
           </div>
           <div class="story-narrative">
-            <p><strong>The efficiency breakthrough.</strong> This is where I proved that smarter design beats more compute. Reducing Generative AI compute by 45% on Spartan FPGAs—without pruning or quantization—wasn't just an optimization; it was a philosophy.</p>
+            <p><strong>The efficiency breakthrough.</strong> This is where I proved that smarter design beats more compute. Reducing Generative AI compute by 45% on Spartan FPGAs, without pruning or quantization, wasn't just an optimization; it was a philosophy.</p>
             <p>I learned that every algorithm has assumptions, and challenging those assumptions opens new possibilities. Building sparse CV models that handled occlusion and blur better than traditional approaches taught me to think about robustness from first principles.</p>
             <p>The Graduate Office Fellowship recognized not just my research, but my approach: rigorous, efficient, and always questioning the status quo.</p>
           </div>
@@ -153,11 +169,74 @@ title: Manu Dwivedi
           </div>
           <div class="story-narrative">
             <p><strong>Where it all began.</strong> At IBM, I learned to think at the hardware level. Implementing Microwatt and A2O from scratch taught me that understanding the silicon is the foundation of everything else.</p>
-            <p>Building the first single-thread architecture for GenAI acceleration on UltraScale+ SoC wasn't just about performance—it was about proving that innovative architecture can unlock capabilities others thought impossible. The 4× ALU throughput improvement came from questioning fundamental assumptions about how data flows through systems.</p>
-            <p>This foundation—VHDL, Verilog, RTL design—is what allows me to optimize systems others can't even see. When I'm optimizing ML models for FPGAs today, I'm building on lessons learned here.</p>
+            <p>Building the first single-thread architecture for GenAI acceleration on UltraScale+ SoC wasn't just about performance, it was about proving that innovative architecture can unlock capabilities others thought impossible. The 4× ALU throughput improvement came from questioning fundamental assumptions about how data flows through systems.</p>
+            <p>This foundation, VHDL, Verilog, RTL design, is what allows me to optimize systems others can't even see. When I'm optimizing ML models for FPGAs today, I'm building on lessons learned here.</p>
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="container">
+    <h2 class="section-title">Flagship Work</h2>
+    <p style="text-align:center;color:var(--text-secondary);margin-bottom:3rem;max-width:820px;margin-left:auto;margin-right:auto;">Passive-radar and ISAC systems I architected and shipped. The panels below are screenshots and signal outputs from the live systems; the O-RAN panel is a schematic of the architecture.</p>
+
+    <div class="projects-grid">
+      <article class="project-card">
+        <div class="project-figure"><img src="{{ '/assets/images/figures/app-asset-tracker.jpg' | relative_url }}" alt="PolyEdge asset-tracker dashboard: live map with ISAC-detected drones, Remote-ID tracks and sensor locations" loading="lazy"></div>
+        <p class="fig-note">Application: the live operator dashboard fusing ISAC radar detections, Remote-ID, ADS-B and NTN targets onto one map (demo data shown).</p>
+        <h3>PolyEdge: 5G-NR Passive Radar</h3>
+        <p>An end-to-end Integrated Sensing and Communication product: live NR waveform reconstruction (SSB/PBCH/CRS), cross-ambiguity and CFAR detection, and clutter cancellation (Wiener-Hopf, ECA), shipped as IP-protected binaries with hardware-fingerprint licensing and Docker/Helm/OpenShift deployment to customer sites.</p>
+        <div class="skill-tags"><span class="skill-tag">CAF</span><span class="skill-tag">CFAR</span><span class="skill-tag">Clutter cancellation</span><span class="skill-tag">NR PHY</span><span class="skill-tag">Edge packaging</span></div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-figure plot"><img src="{{ '/assets/images/figures/airradar-atsc-reconstruction.png' | relative_url }}" alt="ATSC reference channel: received signal versus decision-directed reconstruction, in time and frequency" loading="lazy"></div>
+        <p class="fig-note">Measured: ATSC 1.0 reference channel, received versus decision-directed reconstruction (normalized correlation 0.79) in time and frequency, the clean reference that feeds the cross-correlation stage.</p>
+        <h3>AirRadar: DVB-T Passive Radar</h3>
+        <p>Broadcast television as an illuminator of opportunity: a bistatic passive-coherent-location radar that detects and tracks light aircraft to roughly 25 km, validated against ADS-B ground truth. Continuous-IQ cross-correlation, delay-Doppler/CFAR, and reconstruction, productized as a Dockerized framework with an operator UI.</p>
+        <div class="skill-tags"><span class="skill-tag">DVB-T / ATSC</span><span class="skill-tag">Bistatic PCL</span><span class="skill-tag">Delay-Doppler</span><span class="skill-tag">ADS-B truth</span><span class="skill-tag">~25 km</span></div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-figure"><img src="{{ '/assets/images/figures/oran-dapp.svg' | relative_url }}" alt="O-RAN E3 sensing dApp on NVIDIA Aerial" loading="lazy"></div>
+        <h3>O-RAN Sensing dApp &amp; GPU PHY</h3>
+        <p>A CUDA zero-copy GPU initial-sync path inside the OpenAirInterface NR-UE for real-time SDR-to-GPU processing, and an O-RAN E3-interface sensing dApp integrated with the NVIDIA Aerial (cuBB) GPU L1 over shared-memory IPC. RAN-native ISAC, aligned with the O-RAN E3 sensing-dApp architecture.</p>
+        <div class="skill-tags"><span class="skill-tag">O-RAN E3</span><span class="skill-tag">NVIDIA Aerial</span><span class="skill-tag">CUDA</span><span class="skill-tag">OpenAirInterface</span></div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-figure plot"><img src="{{ '/assets/images/figures/pol-ocusync.jpg' | relative_url }}" alt="One second of OcuSync drone-link RF with every burst detected and fingerprinted by link role" loading="lazy"></div>
+        <p class="fig-note">Measured: one second of OcuSync (DJI drone-link) RF with every burst detected and fingerprinted, no demodulation, classified as controller uplink, inferred downlink or unclassified energy.</p>
+        <h3>Pattern-of-Life &amp; Waveform-Agnostic Sensing</h3>
+        <p>A multi-protocol RF SIGINT stack that detects and fingerprints known and unknown emitters with no demodulation (PFB channelization, energy detection, adaptive ToA, emitter tracking) across Wi-Fi, OcuSync/DroneID and 5G-NR, plus a four-RX phase-coherent angle-of-arrival engine and PRS-based positioning. The portfolio spans 5G-NR, DVB-T, LTE/NTN and Wi-Fi illuminators.</p>
+        <div class="skill-tags"><span class="skill-tag">Pattern-of-Life</span><span class="skill-tag">DroneID</span><span class="skill-tag">AoA / MVDR</span><span class="skill-tag">PRS</span><span class="skill-tag">NTN</span></div>
+      </article>
+
+      <article class="project-card text-only">
+        <h3>Counter-UAS Response Autonomy (ARCHES)</h3>
+        <p>Defensive counter-UAS autonomy: vision-guided pursuit without a vendor SDK (telemetry via ADB/scrcpy, Remote-ID approach, YOLOv8 computer-vision handoff), with a PX4 OFFBOARD safety ladder (Gazebo SITL to staged flight) on Jetson, and a multi-drone ground station. Framed as defensive response, not offensive capability.</p>
+        <div class="skill-tags"><span class="skill-tag">PX4 / MAVLink</span><span class="skill-tag">YOLOv8</span><span class="skill-tag">Remote-ID</span><span class="skill-tag">Jetson</span></div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-figure"><img src="{{ '/assets/images/figures/app-corediff.jpg' | relative_url }}" alt="CoreDiff investigation console: a latent embedding space with the normal-behavior manifold, an anomalous cluster and the flagged 5G-core edge selected" loading="lazy"></div>
+        <p class="fig-note">Application: the CoreDiff console placing a flagged 5G-core signalling edge in the learned latent space, far off the dense cloud of normal behavior, with its distance to normal and ATT&amp;CK attribution. Representative session.</p>
+        <h3>CoreDiff</h3>
+        <p>Most detectors learn what attacks look like; CoreDiff learns what normal looks like and measures how far a thing sits from it. Network activity is modeled as directed interaction edges, actor to endpoint:protocol:port, each a short time series of windowed KPI metrics. A self-supervised encoder compresses an edge's recent history into a latent vector, and a diffusion model is trained to denoise only benign latents, which makes it a learned probability density over the manifold of normal behavior. An edge is anomalous when it lands in a low-likelihood region of that density, so the detector flags zero-day attack families it was never trained on, with no signature.</p>
+        <p>A light supervised signal then sharpens the score without erasing that generalization: a margin term pushes labeled attacks away from the normal-latent center while a hard-negative term pins deceptive-but-benign traffic in place, trained jointly with the density objective. The density, prediction, reconstruction, graph and margin signals are z-standardized and fused by logistic calibration into one probability, and the alert threshold is fit from the empirical false-alarm-rate curve, giving a calibrated score with an explicit false-positives-per-hour operating point before each detection is attributed to a root cause with MITRE ATT&amp;CK / STIX. Developed under the PIN-Cyber program.</p>
+        <div class="skill-tags"><span class="skill-tag">Latent diffusion density</span><span class="skill-tag">Model-normal / zero-day</span><span class="skill-tag">Semi-supervised margin</span><span class="skill-tag">Calibrated false-alarm control</span></div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-figure"><img src="{{ '/assets/images/figures/app-rf-planner.jpg' | relative_url }}" alt="RF Planner 3D application: ray-traced coverage heatmap draped over a 3D city mesh" loading="lazy"></div>
+        <p class="fig-note">Application: the 3D RF planner, ray-traced propagation over a Google-mesh city model, refined by vision-language models over street-view imagery.</p>
+        <h3>Multimodal RF Planner</h3>
+        <p>A 3D coverage planner that ray-traces propagation over a Google-mesh city model with O-RAN-aligned parameters (3GPP 38.901, configurable sectors and tilts), then refines the prediction with vision-language models reading street-view imagery.</p>
+        <div class="skill-tags"><span class="skill-tag">Ray tracing</span><span class="skill-tag">3GPP 38.901</span><span class="skill-tag">VLM</span><span class="skill-tag">Cesium / 3D mesh</span></div>
+      </article>
     </div>
   </div>
 </section>
@@ -169,14 +248,12 @@ title: Manu Dwivedi
       <div class="education-card">
         <h3>Michigan State University</h3>
         <p class="degree">M.S. Electrical & Computer Engineering</p>
-        <p class="gpa">GPA: 3.8</p>
-        <p class="year">May 2023</p>
+        <p class="research">Research: low-power generative-AI acceleration on FPGAs, and 5G signal-of-opportunity sensing for human-activity recognition.</p>
       </div>
       <div class="education-card">
         <h3>SRM Institute of Science and Technology</h3>
-        <p class="degree">B.Tech ECE</p>
-        <p class="gpa">GPA: 3.8</p>
-        <p class="year">May 2020</p>
+        <p class="degree">B.Tech, Electronics & Communication Engineering</p>
+        <p class="research">Research: efficient DSP architectures and RF communication systems.</p>
       </div>
     </div>
   </div>
@@ -185,7 +262,7 @@ title: Manu Dwivedi
 <section id="publications" class="section">
   <div class="container">
     <h2 class="section-title">Contributing to the Field</h2>
-    <p style="text-align: center; color: var(--text-secondary); margin-bottom: 3rem; max-width: 800px; margin-left: auto; margin-right: auto;">Research isn't just about publishing—it's about advancing the field and sharing knowledge that enables others to build on your work.</p>
+    <p style="text-align: center; color: var(--text-secondary); margin-bottom: 3rem; max-width: 800px; margin-left: auto; margin-right: auto;">Research isn't just about publishing, it's about advancing the field and sharing knowledge that enables others to build on your work.</p>
     <div class="publications-list">
       <div class="publication-item">
         <span class="pub-venue">IEEE MILCOM 2024</span>
@@ -197,6 +274,11 @@ title: Manu Dwivedi
         <p class="pub-title">5G-Based Passive Radar Sensing for Human Activity Recognition using Deep Learning</p>
         <p style="margin-top: 1rem; color: var(--text-secondary); font-size: 0.95rem;">Bridging wireless communications and radar sensing through deep learning, showing that the signals we use for connectivity can also reveal human activity patterns.</p>
       </div>
+      <div class="publication-item">
+        <span class="pub-venue">Patents pending</span>
+        <p class="pub-title">Two U.S. patents pending in RF sensing</p>
+        <p style="margin-top: 1rem; color: var(--text-secondary); font-size: 0.95rem;">Indoor/outdoor activity sensing and cross-modal radar-camera sensing: novel methods born from turning everyday wireless signals into a sensing medium.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -206,56 +288,102 @@ title: Manu Dwivedi
     <h2 class="section-title">Technical Skills</h2>
     <div class="skills-grid">
       <div class="skill-category">
-        <h4>Programming</h4>
+        <h4>5G-NR / OpenRAN</h4>
+        <div class="skill-tags">
+          <span class="skill-tag">OpenAirInterface5G</span>
+          <span class="skill-tag">srsRAN</span>
+          <span class="skill-tag">NVIDIA Aerial (cuBB)</span>
+          <span class="skill-tag">O-RAN RU 7.2</span>
+          <span class="skill-tag">O-RAN E3 / dApp / xApp</span>
+          <span class="skill-tag">NR PHY (SSB/PBCH/PRS/CRS)</span>
+          <span class="skill-tag">3GPP Rel-16 NWDAF</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h4>Radar / DSP / ISAC</h4>
+        <div class="skill-tags">
+          <span class="skill-tag">Passive &amp; bistatic radar (PCL)</span>
+          <span class="skill-tag">CAF</span>
+          <span class="skill-tag">CFAR</span>
+          <span class="skill-tag">Clutter cancellation (Wiener-Hopf/ECA)</span>
+          <span class="skill-tag">Range-Doppler</span>
+          <span class="skill-tag">Waveform reconstruction</span>
+          <span class="skill-tag">AoA / MVDR</span>
+          <span class="skill-tag">Pattern-of-Life</span>
+          <span class="skill-tag">DVB-T / ATSC</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h4>SDR / RF Hardware</h4>
+        <div class="skill-tags">
+          <span class="skill-tag">USRP (B210/X310/N310)</span>
+          <span class="skill-tag">UHD</span>
+          <span class="skill-tag">bladeRF</span>
+          <span class="skill-tag">GNU Radio</span>
+          <span class="skill-tag">RFNoC</span>
+          <span class="skill-tag">FPGA (RFSoC/UltraScale+/Arria10)</span>
+          <span class="skill-tag">Vitis AI</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h4>Machine Learning</h4>
+        <div class="skill-tags">
+          <span class="skill-tag">PyTorch</span>
+          <span class="skill-tag">TensorFlow</span>
+          <span class="skill-tag">Transformers / Attention</span>
+          <span class="skill-tag">YOLO</span>
+          <span class="skill-tag">XGBoost</span>
+          <span class="skill-tag">Cross-modal models</span>
+          <span class="skill-tag">GPT-3 fine-tuning</span>
+          <span class="skill-tag">Agentic AI (LLM/SLM)</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h4>GPU / Compute</h4>
+        <div class="skill-tags">
+          <span class="skill-tag">CUDA (zero-copy)</span>
+          <span class="skill-tag">cuDNN</span>
+          <span class="skill-tag">Nsight</span>
+          <span class="skill-tag">TensorRT</span>
+          <span class="skill-tag">ONNX</span>
+          <span class="skill-tag">Real-time SDR&#8594;GPU</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h4>Surveillance / C2</h4>
+        <div class="skill-tags">
+          <span class="skill-tag">SAPIENT (BSI Flex 335)</span>
+          <span class="skill-tag">ASTERIX CAT062</span>
+          <span class="skill-tag">FAAD C2 / AiON</span>
+          <span class="skill-tag">TAK / ATAK</span>
+          <span class="skill-tag">OpenC2 / CACAO</span>
+          <span class="skill-tag">MITRE ATT&amp;CK</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h4>Infra / MLOps</h4>
+        <div class="skill-tags">
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">Kubernetes</span>
+          <span class="skill-tag">Helm</span>
+          <span class="skill-tag">OpenShift</span>
+          <span class="skill-tag">MQTT / WebSocket</span>
+          <span class="skill-tag">Cythonization</span>
+          <span class="skill-tag">NVIDIA Jetson</span>
+          <span class="skill-tag">AWS</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h4>Languages</h4>
         <div class="skill-tags">
           <span class="skill-tag">Python</span>
           <span class="skill-tag">C</span>
           <span class="skill-tag">C++</span>
-          <span class="skill-tag">JavaScript</span>
-          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">CUDA C</span>
+          <span class="skill-tag">Cython</span>
           <span class="skill-tag">MATLAB</span>
-          <span class="skill-tag">Verilog</span>
-          <span class="skill-tag">SystemVerilog</span>
-          <span class="skill-tag">TCL/Tk</span>
+          <span class="skill-tag">Verilog / SystemVerilog</span>
           <span class="skill-tag">Embedded C</span>
-          <span class="skill-tag">R</span>
-        </div>
-      </div>
-      <div class="skill-category">
-        <h4>OpenRAN</h4>
-        <div class="skill-tags">
-          <span class="skill-tag">OpenAirInterface5G</span>
-          <span class="skill-tag">SRSRAN</span>
-          <span class="skill-tag">O-RAN RU Option 7.2</span>
-        </div>
-      </div>
-      <div class="skill-category">
-        <h4>Protocols</h4>
-        <div class="skill-tags">
-          <span class="skill-tag">802.11</span>
-          <span class="skill-tag">IPv4</span>
-          <span class="skill-tag">UDP</span>
-          <span class="skill-tag">TCP/IP</span>
-          <span class="skill-tag">DMA</span>
-          <span class="skill-tag">UART</span>
-          <span class="skill-tag">I2C</span>
-          <span class="skill-tag">SPI</span>
-          <span class="skill-tag">PCIe</span>
-          <span class="skill-tag">Ethernet</span>
-          <span class="skill-tag">USB</span>
-        </div>
-      </div>
-      <div class="skill-category">
-        <h4>Tools</h4>
-        <div class="skill-tags">
-          <span class="skill-tag">GCC</span>
-          <span class="skill-tag">CMake</span>
-          <span class="skill-tag">Git</span>
-          <span class="skill-tag">Linux</span>
-          <span class="skill-tag">Wireshark</span>
-          <span class="skill-tag">MATLAB</span>
-          <span class="skill-tag">Docker</span>
-          <span class="skill-tag">AWS</span>
         </div>
       </div>
     </div>
@@ -265,7 +393,7 @@ title: Manu Dwivedi
 <section id="awards" class="section">
   <div class="container">
     <h2 class="section-title">Recognition</h2>
-    <p style="text-align: center; color: var(--text-secondary); margin-bottom: 3rem; max-width: 800px; margin-left: auto; margin-right: auto;">Awards aren't just recognition—they're validation that the work matters and the vision is right.</p>
+    <p style="text-align: center; color: var(--text-secondary); margin-bottom: 3rem; max-width: 800px; margin-left: auto; margin-right: auto;">Awards aren't just recognition, they're validation that the work matters and the vision is right.</p>
     <div class="awards-list">
       <div class="award-item">
         <div class="award-icon">🏆</div>
@@ -273,7 +401,7 @@ title: Manu Dwivedi
           <h3>Most Integration Potential Award</h3>
           <p class="award-org">Deutsche Telekom T-Challenge 2024</p>
           <p class="award-amount">€25,000</p>
-          <p style="margin-top: 1rem; color: var(--text-secondary); font-size: 0.95rem;">Recognized for building closed-loop network assurance that doesn't just work in theory—it integrates seamlessly into existing infrastructure, proving that intelligent networks are the future.</p>
+          <p style="margin-top: 1rem; color: var(--text-secondary); font-size: 0.95rem;">Recognized for building closed-loop network assurance that doesn't just work in theory, it integrates seamlessly into existing infrastructure, proving that intelligent networks are the future.</p>
         </div>
       </div>
       <div class="award-item">
@@ -282,7 +410,7 @@ title: Manu Dwivedi
           <h3>Graduate Office Fellowship</h3>
           <p class="award-org">Michigan State University</p>
           <p class="award-amount">$7,500</p>
-          <p style="margin-top: 1rem; color: var(--text-secondary); font-size: 0.95rem;">Awarded for research excellence and the potential to advance the field of efficient AI on edge devices—work that continues to influence my approach today.</p>
+          <p style="margin-top: 1rem; color: var(--text-secondary); font-size: 0.95rem;">Awarded for research excellence and the potential to advance the field of efficient AI on edge devices, work that continues to influence my approach today.</p>
         </div>
       </div>
     </div>
