@@ -1,43 +1,20 @@
-# Manu Dwivedi - GitHub Pages
+# manudwd.github.io
 
-This repository contains my professional profile hosted on GitHub Pages.
-
-## Setup Instructions
-
-To enable GitHub Pages for this repository:
-
-1. Go to your repository settings on GitHub
-2. Navigate to "Pages" in the left sidebar
-3. Under "Source", select the branch (usually `main` or `master`)
-4. Select the folder (usually `/ (root)`)
-5. Click "Save"
-
-Your site will be available at: `https://[your-username].github.io/mygithub/`
-
-Or if you rename this repository to `[your-username].github.io`, it will be available at:
-`https://[your-username].github.io/`
-
-## Local Development
-
-To preview the site locally with Jekyll:
-
-```bash
-# Install Jekyll and Bundler
-gem install bundler jekyll
-
-# Install dependencies
-bundle install
-
-# Serve the site locally
-bundle exec jekyll serve
-
-# Visit http://localhost:4000
-```
+Personal site of Manu Dwivedi, served by GitHub Pages at https://manudwd.github.io.
 
 ## Files
 
-- `index.md` - Main profile page
-- `_config.yml` - Jekyll configuration
-- `assets/css/style.css` - Custom styling
-- `myprofile.md` - Original profile markdown (source file)
+- `index.html`: the whole page (About, Experience, Programs, Education, Publications, Skills, Awards).
+- `_layouts/default.html`: page shell and navigation.
+- `assets/css/style.css`, `assets/js/main.js`: styling and scroll effects.
+- `assets/images/`: profile photo and program figures.
+- `assets/cv/`: public CV PDFs linked from the site.
+- `cv/`: CV sources and the experience bank. Excluded from the published site in `_config.yml`.
 
+## Local preview
+
+```bash
+gem install bundler jekyll
+bundle exec jekyll serve
+# http://localhost:4000
+```

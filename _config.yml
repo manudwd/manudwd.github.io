@@ -1,5 +1,5 @@
 title: Manu Dwivedi
-description: Director of Engineering, AI/ML R&D. RF sensing, passive radar and ISAC.
+description: Director of Engineering, AI/ML R&D at Tiami Networks. ISAC, radar foundation models, zero-day network anomaly detection, and world models for autonomous fleets.
 url: https://manudwd.github.io
 baseurl: ""
 markdown: kramdown
@@ -9,4 +9,14 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
+exclude:
+  - cv/
+  - applications/
+  - DwivediManu_CV_0326/
+  - guidelines.txt
+  - PHOTO_INSTRUCTIONS.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
